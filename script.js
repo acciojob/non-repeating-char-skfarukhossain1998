@@ -1,6 +1,6 @@
 //your JS code here. If required.
 function firstNonRepeatedChar(str){
-	for (let index = 0; index < str.length; index++) {
+	for (let i = 0; i < str.length; i++) {
 		if (str.indexOf(str.charAt(i))==str.lastIndexOf(str.charAt(i))) {
 			return str.charAt(i);
 		
